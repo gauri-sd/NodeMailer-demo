@@ -1,0 +1,35 @@
+{
+    "env": "development",
+    "server": {
+        "port": 54500,
+        "host": "0.0.0.0"
+    },
+    "logging": {
+		"name": "DEV-PROJ",
+		"level": "debug",
+		"path": "/tmp/node_debug.log"
+    },
+    "database": {
+		"mongo": {
+			"type": "mongo",
+			"name": "Task3",
+			"host": "0.0.0.0",
+			"port": 27017,
+			"username": "",
+			"password": "",
+			"options": {
+				"host": "0.0.0.0",
+				"port": 27017,
+				"dialect": "mongo",
+				"underscored": true,
+				"timestamps": false,
+				"define": { "underscored": true, "timestamps": false },
+				"pool": {
+					"maxConnections": 20,
+					"minConnections": 5,
+					"maxIdleTime": 30000
+				}
+			}
+		}
+	}
+}

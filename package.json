@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-template-emails",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "email-templates": "^2.5.4",
+    "handlebars": "^4.0.6",
+    "nodemailer": "^4.0.1",
+    "@hapi/hapi": "^19.0.0",
+    "@hapi/inert": "^6.0.1",
+    "@hapi/joi": "^17.1.0",
+    "@hapi/vision": "^6.0.0",
+    "@types/hapi": "^17.6.1",
+    "app-module-path": "^2.2.0",
+    "bunyan": "^1.8.12",
+    "config": "^3.2.5",
+    "hapi-cors-headers": "^1.0.3",
+    "hapi-swagger": "^12.1.0",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.1",
+    "mustache-mail": "^2.0.2"
+  }
+}
